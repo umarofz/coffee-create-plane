@@ -1302,6 +1302,7 @@ button:hover {
 .drink__right-item {
   margin: 0;
   padding: 0;
+  margin-bottom: 88px;
 }
 
 .drink__right-item-item-wrapper {
@@ -1326,7 +1327,7 @@ button:hover {
 .drink__right-item-item-img {
   position: absolute;
   top: 20%;
-  left: 105%;
+  left: 94%;
 }
 
 .drink__right-item-list {
@@ -1342,6 +1343,12 @@ button:hover {
   margin: 0;
   padding: 0;
   margin-right: 23px;
+  position: relative;
+}
+
+.drink__right-input {
+  position: absolute;
+  display: none;
 }
 
 .drink__right-item-item-span1 {
@@ -1387,6 +1394,45 @@ button:hover {
 
 .drink__right-item-item-span1-text:active {
   color: #FEFCF7;
+}
+
+.drink__right-item1 {
+  background-color: #333D4B;
+  padding: 27px 64px 27px 64px;
+  margin-bottom: 40px;
+  width: 730px;
+}
+
+.drink__right-item1-span {
+  color: #0E8784;
+}
+
+.drink__right-item1-text {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.drink__right-item1-heading {
+  margin: 0;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+  width: 602px;
+}
+
+.drink__btn {
+  margin-left: 550px;
+  margin-bottom: 168px;
 }
 
 .footer {
