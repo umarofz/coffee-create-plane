@@ -19,10 +19,6 @@
     opacity: 0.4;
     margin: 0;
     padding: 0;
-
-    &:hover {
-      opacity: 1;
-    }
   }
 
   &__item-link {
@@ -53,26 +49,6 @@
     font-size: 24px;
     line-height: 32px;
     color: #333D4B;
-    opacity: 0.4;
-
-    &:hover {
-      font-family: 'Fraunces 9pt';
-      font-style: normal;
-      font-weight: 900;
-      font-size: 24px;
-      line-height: 32px;
-      color: #333D4B;
-      opacity: 0.6;
-    }
-    &:active {
-      font-family: 'Fraunces 9pt';
-      font-style: normal;
-      font-weight: 900;
-      font-size: 24px;
-      line-height: 32px;
-      color: #333D4B;
-      opacity: 1;
-    }
   }
 
   &__item-span {
@@ -155,6 +131,7 @@
     background-color: #F4F1EB;
     border-radius: 8px;
     padding: 32px 28px 84px 28px;
+    transition: all 0.5s ease;
 
     &:hover {
       background-color: #FDD6BA;
